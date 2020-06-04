@@ -24,9 +24,9 @@ Finally, enter your world and enable this module from the "Manage Modules" menu 
 
 ## Usage
 
-Simply edit the title of a journal entry to change its apperance. Prefix with `Main Quest:`, `Side Quest:`, or `Quest:` to add an icon to the journal entry. Optionally, suffix with `(In Progress)` or `(Complete)` to mark quest status.
+**Simply edit the title of a journal entry to change its apperance:** Prefix with `Main Quest:`, `Side Quest:`, or `Quest:` to add an icon to the journal entry. Optionally, suffix with `(In Progress)` or `(Complete)` to mark quest status.
 
-Journal entries are hidden by default. You can change visibility by right-clicking on an entry, choosing "Configure Permission", and changing "All Players" to "Observer" (read-only access) or "Owner" (read & write access).
+**Journal entries are hidden by default:** You can change visibility by right-clicking on an entry, choosing "Configure Permission", and changing "All Players" to "Observer" (read-only access) or "Owner" (read & write access).
 
 ## License
 
