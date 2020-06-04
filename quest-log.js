@@ -81,7 +81,7 @@ Hooks.on("renderJournalDirectory", (app, html, data) => {
     htmlEntry.find('.entity-name a').text(title);
     htmlEntry.find('h4.entity-name').append(`
       <span class="journal-quest-log-subtitle">
-        ${questType.name} ${statuses.length && `(${statuses.join(', ')})`}
+        ${questType.name} ${statuses.length > 0 ? `(${statuses.join(', ')})` : ''}
       </span>
     `);
   });
