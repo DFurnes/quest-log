@@ -1,0 +1,13 @@
+.journal-quest-log-icon {
+    object-fit: contain;
+    margin-right: 0;
+    padding: 6px;
+}
+
+.journal-quest-log-subtitle {
+    display: block;
+    line-height: 1;
+    margin-top: -4px;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
