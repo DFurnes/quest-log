@@ -31,3 +31,5 @@ Journal entries are hidden by default. You can change visibility by right-clicki
 ## License
 
 © David Furnes. This module is free software, and may be redistributed under the terms specified in the [LICENSE](https://github.com/DFurnes/quest-log/blob/master/LICENSE) file.
+
+The [dragon symbol](https://thenounproject.com/term/dragon/62553/) used in quest icons is by [Matthew Roberts](https://thenounproject.com/matthewkupon), from the [Noun Project](https://thenounproject.com).
