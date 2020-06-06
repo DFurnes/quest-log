@@ -5,7 +5,7 @@
   "author": "David Furnes",
   "url": "https://github.com/DFurnes/quest-log",
   "manifest": "https://raw.githubusercontent.com/DFurnes/quest-log/master/module.json",
-  "download": "https://github.com/DFurnes/quest-log/archive/v1.0.0.zip",
+  "download": "https://github.com/DFurnes/quest-log/archive/v1.1.0.zip",
   "version": "1.1.0",
   "esmodules": ["./quest-log.js"],
   "styles": ["./quest-log.css"],
