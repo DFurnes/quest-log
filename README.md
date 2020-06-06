@@ -4,7 +4,7 @@
 <p align="center">This module for <a href="https://foundryvtt.com" rel="nofollow">Foundry VTT</a> makes it easy to use <br>the Journal tab as a "quest log" for your players:</p>
 
 <p align=center>
-  <img width="356" alt="FoundryVTT journal tab with quest-log module" src="https://user-images.githubusercontent.com/583202/83711687-e374b780-a5f1-11ea-9ae1-d34ce41a1c42.png">
+  <img width="360" alt="FoundryVTT journal tab with quest-log module" src="https://user-images.githubusercontent.com/583202/83936519-692f6900-a792-11ea-90a2-ba9ee38bf867.png">
 </p>
 
 <br><br>
@@ -27,6 +27,8 @@ Finally, enter your world and enable this module from the "Manage Modules" menu 
 **Simply edit the title of a journal entry to change its apperance:** Prefix with `Main Quest:`, `Side Quest:`, or `Quest:` to add an icon to the journal entry. Optionally, suffix with `(In Progress)` or `(Complete)` to mark quest status.
 
 **Journal entries are hidden by default:** You can change visibility by right-clicking on an entry, choosing "Configure Permission", and changing "All Players" to "Observer" (read-only access) or "Owner" (read & write access).
+
+**Choose your favorite color:** You can pick the color of the "Main Quest" icons in the Module Settings menu.
 
 ## License
 
