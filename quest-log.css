@@ -1,6 +1,6 @@
 .journal-quest-log-icon {
-    object-fit: contain;
-    margin-right: 0;
+    object-fit: contain !important;
+    margin-right: 0 !important;
     padding: 6px;
 }
 
