@@ -11,16 +11,16 @@ const questTypes = [
   {
     name: 'Main Quest',
     pattern: /Main Quest: /i,
-    iconNew: 'modules/quest-log/icons/MainNew.png',
-    iconActive: 'modules/quest-log/icons/MainProgress.png',
-    iconComplete: 'modules/quest-log/icons/MainComplete.png',
+    iconNew: 'modules/quest-log/icons/Main_New_Purple.png',
+    iconActive: 'modules/quest-log/icons/Main_Progress_Purple.png',
+    iconComplete: 'modules/quest-log/icons/Main_Complete_Purple.png',
   },
   {
     name: 'Side Quest',
     pattern: /(Side )?Quest: /i,
-    iconNew: 'modules/quest-log/icons/SideNew.png',
-    iconActive: 'modules/quest-log/icons/SideProgress.png',
-    iconComplete: 'modules/quest-log/icons/SideComplete.png',
+    iconNew: 'modules/quest-log/icons/Side_New.png',
+    iconActive: 'modules/quest-log/icons/Side_Progress.png',
+    iconComplete: 'modules/quest-log/icons/Side_Complete.png',
   }
 ]
 
