@@ -1,3 +1,5 @@
+const MODULE = 'quest-log';
+
 /**
  * Quest state patterns.
  */
@@ -11,18 +13,30 @@ const questTypes = [
   {
     name: 'Main Quest',
     pattern: /Main Quest: /i,
-    iconNew: 'modules/quest-log/icons/Main_New_Purple.png',
-    iconActive: 'modules/quest-log/icons/Main_Progress_Purple.png',
-    iconComplete: 'modules/quest-log/icons/Main_Complete_Purple.png',
+    icon: (status, color) => `modules/quest-log/icons/Main_${status}_${color}.png`,
   },
   {
     name: 'Side Quest',
     pattern: /(Side )?Quest: /i,
-    iconNew: 'modules/quest-log/icons/Side_New.png',
-    iconActive: 'modules/quest-log/icons/Side_Progress.png',
-    iconComplete: 'modules/quest-log/icons/Side_Complete.png',
+    icon: status => `modules/quest-log/icons/Side_${status}.png`,
   }
-]
+];
+
+/**
+ * Initialize the module.
+ */
+Hooks.once('init', () => {
+  game.settings.register(MODULE, 'color', {
+    name: "Color Scheme",
+    hint: "The color to use for main quest icons.",
+    choices: {Red: "Red", Purple: "Purple", Green: "Green" },
+    default: "Red",
+    scope: "world",
+    config: true,
+    type: String,
+    onChange: () => ui.sidebar.render(),
+  });
+});
 
 /**
  * This hook is fired when rendering Foundry's
@@ -33,6 +47,8 @@ const questTypes = [
  * @param {*} data 
  */
 Hooks.on("renderJournalDirectory", (app, html, data) => {    
+  const color = game.settings.get(MODULE, 'color');
+
   app.entities.forEach(j => {
     const questType = questTypes.find(t => j.name.match(t.pattern));
     const isHidden = j.data.permission.default === 0;
@@ -49,14 +65,14 @@ Hooks.on("renderJournalDirectory", (app, html, data) => {
     }
 
     const statuses = [];
-    let icon = questType.iconNew;
 
+    let icon = questType.icon('New', color);
     if (j.name.match(ACTIVE_PATTERN)) {
       statuses.push('In Progress');
-      icon = questType.iconActive;
+      icon = questType.icon('Progress', color);
     } else if (j.name.match(COMPLETE_PATTERN)) {
       statuses.push('Complete');
-      icon = questType.iconComplete;
+      icon = questType.icon('Complete', color);
     }
 
     if (isHidden) {
