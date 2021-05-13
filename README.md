@@ -16,7 +16,7 @@ In Foundry, select the "Add-on Modules" tab in the "Configuration and Setup" men
 Choose "Install Module" and paste the following Manifest URL. Then, click "Install":
 
 ```
-https://raw.githubusercontent.com/DFurnes/quest-log/master/module.json
+https://raw.githubusercontent.com/DFurnes/quest-log/main/module.json
 ```
 
 Finally, enter your world and enable this module from the "Manage Modules" menu in the Settings tab.
