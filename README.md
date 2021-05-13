@@ -4,7 +4,7 @@
 <p align="center">This module for <a href="https://foundryvtt.com" rel="nofollow">Foundry VTT</a> makes it easy to use <br>the Journal tab as a "quest log" for your players:</p>
 
 <p align=center>
-  <img width="360" alt="FoundryVTT journal tab with quest-log module" src="https://user-images.githubusercontent.com/583202/83936519-692f6900-a792-11ea-90a2-ba9ee38bf867.png">
+  <img width="360" alt="FoundryVTT journal tab with quest-log module" src="https://user-images.githubusercontent.com/583202/118193249-6367ec00-b415-11eb-9e21-98af6e6d4658.png">
 </p>
 
 <br><br>
@@ -32,6 +32,4 @@ Finally, enter your world and enable this module from the "Manage Modules" menu 
 
 ## License
 
-© David Furnes. This module is free software, and may be redistributed under the terms specified in the [LICENSE](https://github.com/DFurnes/quest-log/blob/master/LICENSE) file.
-
-The [dragon symbol](https://thenounproject.com/term/dragon/62553/) used in quest icons is by [Matthew Roberts](https://thenounproject.com/matthewkupon), from the [Noun Project](https://thenounproject.com).
+© David Furnes. This module is free software, and may be redistributed under the terms specified in the [LICENSE](https://github.com/DFurnes/quest-log/blob/master/LICENSE) file. The [dragon symbol](https://thenounproject.com/term/dragon/62553/) used in quest icons is by [Matthew Roberts](https://thenounproject.com/matthewkupon), from the [Noun Project](https://thenounproject.com).
